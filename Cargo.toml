@@ -8,7 +8,8 @@ edition = "2021"
 [dependencies]
 actix-web="4.0.0"
 pin-project = "1"
-futures = "0.3.21"
+futures = "0.3"
+futures-util = "0.3"
 
 [dependencies.resp-result]
 version="0.1"
