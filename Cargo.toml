@@ -1,5 +1,5 @@
 [package]
-name = "actix-pretreat"
+name = "request-pretreat"
 version = "0.1.0"
 edition = "2021"
 authors = ["FrozenString<frozenstringstable@gmail.com>"]
