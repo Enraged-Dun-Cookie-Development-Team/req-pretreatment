@@ -18,6 +18,8 @@ pub use self::path::{PathError, PathValue};
 pub use self::query::QueryArgs;
 pub use self::resp_result::{ToRespResult, ToRespResultFut};
 
+pub type Non = DefaultValue<()>;
+
 struct RawError<T: ResponseError + 'static> {
     raw: actix_web::Error,
     _phantom: PhantomData<T>,
